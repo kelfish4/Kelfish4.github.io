@@ -3,9 +3,10 @@
 <head>
     <title>Uzair Hasan</title>
     <style>
-    body{
-        background:#0E0D0D;
-    }
+        body {
+            background: #0E0D0D;
+        }
+
         #header {
             width: 100%;
             float: left;
@@ -19,7 +20,7 @@
 
         #logo h1,
         h2 {
-            transition: 1s;
+            transition: 2s;
             margin-left: 4%;
             color: white;
         }
@@ -34,7 +35,7 @@
             float: left;
         }
 
-        #menu ul li {
+        #menu top {
             cursor: pointer;
             float: left;
             padding: 8px;
@@ -42,13 +43,13 @@
             font-size: 20px;
         }
 
-        #menu ul li:hover {
+        #menu top:hover {
             color: red;
         }
 
-        #menu ul {
+        #menu top {
             float: right;
-            margin-right: 5%;
+            margin-right: 1%;
 
         }
 
@@ -60,8 +61,24 @@
         .body {
             color: red;
         }
-        p{
-         color:white;   
+
+        .option {
+            cursor: pointer;
+            float: left;
+            padding: 8px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .option:hover {
+            color: red;
+        }
+
+        p {
+            color: white;
+            font-family:arial;
+            font-size:17;
+            line-height:135%;   
         }
     </style>
 </head>
@@ -72,12 +89,21 @@
             <h1>Uzair Hasan</h1>
             <h2> Kelfish4</h2>
         </div>
+        <div id="menu">
+            <top> <a class="option" style="text-decoration:none" href="Autobiography.html">Contact</a> </top>
+            <top><a class="option" style="text-decoration:none" href="Autobiography.html"> Soliac</a> </top>
+            <top> <a class="option" style="text-decoration:none" href="Autobiography.html">Resume </a></top>
+            <top><a class="option" style="text-decoration:none" href="Autobiography.html">Autobiography</a></top>
+            <top> <a class="option" style="text-decoration:none">Home</a></top>
+        </div>
     </div>
-    <p class="heading"> Who is Uzair Hasan?</p>
+    <p class="heading"> <br /> Who is Uzair Hasan?</p>
+    <img src="placeholder.png" width="50dp" />
     <p>I am Uzair Hasan. Me, an ambitious and hard working high school student with a passion for coding. Obtaining this passion when I started coding an Arduino to make LEDs blink in early high school, I am continuously learning and trying to improve as
         a programmer. Since then, I have been learning various languages, including Java and Processing.<br />I have been working on several apps, which are all unfinished at the moment (I thank the school system for wasting so much of my time). I have
         also been participating in several math contests, algorithmic contests and hackathons, while winning decent positions in some. I am also currently reading a book about algorithms, Introduction to Algorithms Third Addition. I am also taking a free
-        online course regarding cyber security.</p>
+        online course regarding cyber security. If you really are interested in learning more about me, check out my
+        <a class="body" href="Autobiography.html" title="autobiography">autobiography.</a></p>
     <hr />
     <p class="heading"> Who is Kelfish4?</p>
     <p>My name, Uzair Hasan, is very generic, its the type of name you would find on those naming websites some parents would go on to pick a name for their child. Uzair is the name of a prophet in both Islam and Judaism, which makes it very popular with
